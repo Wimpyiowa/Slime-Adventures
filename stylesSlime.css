@@ -1,0 +1,244 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.main {
+    background-color: rgb(0, 0, 0);
+}
+
+.main__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    padding: 0 50px;
+}
+
+.fire__button{
+    display: flex;
+    margin: 1rem;
+    border-radius: 0px;
+    padding: 0;
+    border: none;
+    background: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.main__content {
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.fade-in-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+}
+
+.fade-in-image button { 
+    animation: fadeIn 7s;
+    position: absolute;
+}
+ 
+.fade-in-image p {
+    font-family: Arial;
+    font-size: 24px;
+    color: white;
+    line-height: 2em;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    top: 450px;
+    animation: fadeIn 5s 5s both;
+    
+}
+
+.card__button {
+    height: 725px;
+    width: 900px;
+    padding: 0;
+    border: none;
+    background: none;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url("images/deepForest.png");
+    background-size: cover;
+    position: relative;
+    color: white;
+    cursor: pointer;
+}
+
+.first__card--1 {
+    margin: 1rem;
+    height: 400px;
+    width: 250px;
+    border: 4px;
+    padding: 0;
+    background: none;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url("images/sunflower.png");
+    background-size: cover;
+    background-position: 50% 50%;
+    position: absolute;
+    top: 300px;
+    right: 500px;
+    color: white;
+    cursor: pointer;
+}
+
+.second__card--1 {
+    margin: 1rem;
+    height: 400px;
+    width: 250px;
+    border: 4px;
+    padding: 0;
+    background: none;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url("images/moutains.png");
+    background-size: cover;
+    background-position: 80% 50%;
+    top: 300px;
+    left: 500px;
+    color: white;
+    cursor: pointer;
+}
+
+.slime__button{
+    margin: 1rem;
+    border-radius: 0px;
+    padding: 0;
+    border: none;
+    background: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.fade-in-image h3 {
+    font-family: Arial;
+    font-size: 24px;
+    color: white;
+    line-height: 2em;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    top: 340px;
+    animation: fadeIn 3s 3s both;
+}
+
+.first__options h3 {
+    font-family: Arial;
+    font-size: 24px;
+    color: white;
+    line-height: 2em;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    top: 235px;
+    left: 340px;
+    animation: fadeIn 3s 3s both;
+}
+
+.first--option {
+    font-family: Arial;
+    font-size: 20px;
+    color: white;
+    line-height: 1em;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    top: 730px;
+    left: 208px;
+    animation: fadeIn 5s;
+}
+
+.second--option {
+    font-family: Arial;
+    font-size: 20px;
+    color: white;
+    line-height: 1em;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    top: 730px;
+    left: 604px;
+    animation: fadeIn 5s;
+}
+
+.fire__button2 {
+    margin: 1rem;
+    border-radius: 0px;
+    padding: 0;
+    border: none;
+    background: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.sunflower_choice {
+    font-family: Arial;
+    font-size: 24px;
+    color: white;
+    line-height: 2em;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    top: 300px;
+    animation: fadeIn 5s 5s both;
+}
+
+.slime__button2 {
+    margin: 1rem;
+    border-radius: 0px;
+    padding: 0;
+    border: none;
+    background: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.fire__button3 {
+    margin: 1rem;
+    border-radius: 0px;
+    padding: 0;
+    border: none;
+    background: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.slime__button3 {
+    margin: 1rem;
+    border-radius: 0px;
+    padding: 0;
+    border: none;
+    background: none;
+    position: relative;
+    cursor: pointer;
+}
+
+@keyframes fadeIn {
+    0% { 
+        opacity: 0; 
+    }
+    100% { 
+        opacity: 1; 
+    }
+}
+
+.fire__sound--effect{
+    display: none;
+}
+  
+  
+

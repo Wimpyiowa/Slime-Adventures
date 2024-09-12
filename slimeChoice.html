@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slime Adventures</title>
+    <link rel="stylesheet" href="stylesSlime.css">
+    <style>
+        .line-break::before {
+          content: "\A";
+          white-space: pre;
+          display: block;
+        }
+      </style>
+</head>
+<body>
+    <!-- Header Bar -->
+
+     <div class="main">
+        <div class="main__container">
+            <div class="main__content">
+                <div class="fade-in-image">
+                    <button id="btn1" class="fire__button" type="button"><img src="images/Fire+Sparks.gif" alt="" width = "300"></button>
+                    <audio class="fire__sound--effect" controls autoplay src="fire-sound.mp3" type="audio/mpeg"></audio>
+                    <p id="paragraph1"><span class="line-break">Welcome.</span>
+                       <span class="line-break">(Click the fire to continue)</span>
+                    </p>
+                    <button id="btn2" class = "card__button" type="button" hidden></button>
+
+                    <button id="btn3" class = "first__card--1" type= button onclick="Continue1()" hidden></button>
+                    <button id="btn4" class = "second__card--1" type="button" onclick="Continue2()" hidden></button>
+                    <button id="greenSlime" class="slime__button" type="button" hidden><img src="images/greenSlime.gif" alt=""></button>
+                    <h3 id="obtainGreenSlime" hidden>You Obtained Green Slime</h3>
+
+                    <button id="btnsunflower" class="fire__button2" type="button" onclick="Log1()" hidden><img src="images/Fire+Sparks.gif" alt="" width = "300"></button>
+                    <p id="sunflower_choice" class="sunflower_choice" hidden>You Chose Sunflower Field.</p>
+                    <button id="purpleSlime" class="slime__button2" type="button" onclick="" hidden><img src="images/purpleSlime.gif" alt=""></button>
+                    <h3 id="obtainPurpleSlime" class="purple__slime" hidden>You Obtained Purple Slime</h3>
+
+                    <button id="btnmountain" class="fire__button3" type="button" onclick="Log2()" hidden><img src="images/Fire+Sparks.gif" alt="" width = "300"></button>
+                    <p id="mountain_choice" class="mountain_choice" hidden>You Chose Mountain.</p>
+                    <button id="graySlime" class="slime__button3" type="button" onclick="" hidden><img src="images/graySlime.gif" alt=""></button>
+                    <h3 id="obtainGraySlime" class="gray__slime" hidden>You Obtained Gray Slime</h3>
+
+                </div>
+                <div class="first__options">
+                    <h3 id="card__option__text--1" hidden>
+                        Choose One Option
+                    </h3>
+                <div class="first--option">
+                    <p id="card__option__text--2" hidden>Sunflower Field</p>
+                </div>
+                    <div class="second--option">
+                         <p id="card__option__text--3" hidden>Mountains</p>
+                    </div>
+                </div>
+                <!--<button class="main__btn"><a href="slimeChoice.html">Start Your Journey</a></button>-->
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
